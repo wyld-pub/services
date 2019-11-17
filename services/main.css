@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.4 Space Grotesk, Courier New, san serif;
+  font-size: 24px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  background-color:;
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f4f4;
+  color:;
+  margin: 0;
+}
+
+h1, h2, h3, p, ul , hr {
+  margin: 0 0 1.4rem;
+}
+
+.wrapper {
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 40em;
+}
+
+.masthead {
+  margin-bottom: 0.6rem;
+  padding: 1em 1em 1.2em;
+  background-color: #f4f4f4;
+  color:;
+  border-bottom: 1px solid black;
+}
+
+.service
+.company {
+  font-size: 1.5rem;
+}
+
+.service i {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.company i {
+  font-style: normal;
+  font-weight: normal;
+}
+
+main {
+  padding: 1em;
+}
+
+#card {
+  height: 16rem; 
+}
+
+main p {
+  margin-bottom: 0;
+  text-indent: 1.4em;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+---
+
+.chap-num {
+  display: block;
+  font-size: 1.125rem;
+  font-style: italic;  
+}
+
+.footer {
+  padding: 1em;
+  background-color: #f4f4f4;
+  color:;
+  border-top: 1px solid black;
+}
+
+.chap-links {
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.chap-links li {
+  display: inline-block;
+  margin: 0 .5rem;
+}
+
+.copyright {
+  margin-bottom: 0;
+  color:;
+  font-size: 0.55rem;
+  text-align: center;
+}
